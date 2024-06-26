@@ -1,20 +1,22 @@
-# MyCustomToken Contract
+# Custom Token Contract
 
 ## Overview
-
-MyCustomToken is a custom ERC20 token built on the Ethereum blockchain. It utilizes OpenZeppelin's ERC20 contract for a robust and secure implementation. This token allows the contract owner to mint new tokens, and any holder can burn and transfer tokens freely.
+**MyCustomToken** is a custom ERC20 token built on the Ethereum blockchain. It leverages OpenZeppelin's ERC20 contract for a solid and secure foundation. This token enables the contract owner to mint new tokens, while holders can freely burn and transfer tokens.
 
 ## Features
+### Minting
+The contract owner has the capability to mint new tokens and assign them to any Ethereum address.
 
-- **Minting**: The contract owner can mint new tokens and assign them to any address.
-- **Burning**: Holders can burn their tokens, removing them from circulation.
-- **Transferring**: Users can transfer tokens to any other Ethereum address.
+### Burning
+Holders possess the right to burn their tokens, effectively removing them from circulation.
+
+### Transferring
+Users enjoy the freedom to transfer tokens to any other Ethereum address.
 
 ## Usage
 
 ### Deployment
+To deploy **MyCustomToken**, you must define the token's name, symbol, and initial supply at the time of deployment.
+Use hardhat, Foundry or Remix for deployement.
 
-To deploy MyCustomToken, you'll need to specify the token's name, symbol, and initial supply during deployment.
-
-Example command for deployment (using Truffle):
 
