@@ -1,4 +1,4 @@
-# CustomT oken Contract
+# Custom Token Contract
 ## Overview
 MyCustomToken is an ERC20 token designed for deployment on the Ethereum blockchain. It utilizes OpenZeppelin's ERC20 implementation to ensure robustness and security. The contract allows the owner to mint new tokens while enabling token holders to burn and transfer their tokens freely.
 
@@ -42,7 +42,6 @@ Minting Tokens:
 Call the mint function to create new tokens and assign them to an address.
 
 ```solidity
-Copy code
 function mint(address to, uint256 amount) external onlyOwner {
     //
 }
@@ -59,7 +58,6 @@ Transferring Tokens:
 Use the standard transfer function to send tokens to another address.
 
 ```solidity
-Copy code
 function transfer(address to, uint256 amount) external returns (bool) {
     // 
 }
